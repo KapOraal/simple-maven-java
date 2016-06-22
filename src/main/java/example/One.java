@@ -9,10 +9,9 @@ public class One {
     return message;
   }
 
-  private final static Logger logger = Logger.getLogger("example.One");
+  private static final Logger logger = Logger.getLogger("example.One");
 
   public void uncoveredMethod() {
-    //System.out.println(foo());
     logger.info("foo");
   }
 }
