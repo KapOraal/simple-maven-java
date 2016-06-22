@@ -11,6 +11,8 @@ public class One {
   }
 
   public void uncoveredMethod() {
+    GiveMessage vGiveMessage = new GiveMessage();
+    vGiveMessage.sayHello();
     logger.info("foo");
   }
 }
